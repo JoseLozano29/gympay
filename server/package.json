@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/jwt": "^1.4.1",
+    "@elysiajs/static": "^1.2.0",
+    "bcryptjs": "^3.0.0",
+    "bun-types": "^1.2.2",
+    "elysia": "^1.2.10"
+  }
+}
